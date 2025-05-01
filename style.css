@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+  
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:560;
+    font-family: "Rubik Dirt", system-ui;
+
+
+     
+
+}
+body h1{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vmax;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.section{
+    margin-top: 40px;
+    max-width: 1250px;
+    display: flex;
+    
+}
+ 
+.section-itens h2{
+    font-size: 30px;
+}
+
+
+.section-item{
+    display: flex;
+    gap: 40px;
+    text-align: left;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.description{
+    height: 180px;
+    max-width: 400px;
+}
+.description h3{
+    color: #fddf59;
+}
+.price{
+    background-color: #fddf59;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.section-adicional{
+    text-align: center;
+    margin-left: 40px;
+    align-items: center;
+    
+}
+.section-adicional h2{
+    background-color: #545454;
+    border-radius: 10px;
+}
+
+.section-adicional ul{
+     list-style: none;
+     text-align: left;
+
+}
+.section-adicional li{
+    line-height: 10px;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/bg.png');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%) brightness(0.3);
+    z-index: -1;
+}
+.section-img{
+    width: 200px;
+    height: 200px;
+    color: #fddf59;
+    border: 3px solid #fddf59;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+.section-img h3{
+    background-color: #545454;
+    border-radius: 10px;
+
+}
+.section-img img{
+    width: 100%;
+    border-radius: 100%;
+}
+.others{
+    margin-right: 20px;
+    text-align: left;
+    line-height: 10px;
+}
+
+.others h2 {
+    color: #fddf59;
+}
+.torrada{
+    font-size: 10px;
+}
+
+footer{
+    display: flex;
+    gap: 30px;
+}
+.foot{
+    display: flex;
+}
+.foot img{
+    width: 100px;
+    height: 100px;
+    background-color: #fddf59;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+#logo{
+    width: 400px;
+    border-radius: 10px;
+}
+ 
+
+
+
+@media (max-width:1057px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #logo-pos{
+        order: 3;
+    }
+    
+}
